@@ -10,5 +10,8 @@ class NodeSap4Hana1809(PersonalizationNode):
     def __init__(self, client: UUID, path: str) -> None:
         super().__init__(client, __file__)
 
-    def make_sap_things(self):
-        print('making sap things with the 1809 version!')
+    def step1(self):
+        print('making step 1 for the 1709 version!')
+
+    def step3(self):
+        print('making step 3 for the 1709 version!')

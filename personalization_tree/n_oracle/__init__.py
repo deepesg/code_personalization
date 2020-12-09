@@ -11,4 +11,7 @@ class NodeOracle(PersonalizationNode):
         super().__init__(client, __file__)
 
     def run(self):
-        print('oracle run called!')
+        print('initializing oracle process')
+        print('making step 1')
+        print('making step 2')
+        print('making step 3')

@@ -14,6 +14,9 @@ class NodeSap(PersonalizationNode):
         super().__init__(client, __file__)
 
     def run(self):
-        print('sap run called!')
-        make_sap_things = self.func('make_sap_things')
-        make_sap_things()
+        print('initializing sap process')
+        step1 = self.func('step1')
+        step1()
+        print('making step 2')
+        step3 = self.func('step3')
+        step3()

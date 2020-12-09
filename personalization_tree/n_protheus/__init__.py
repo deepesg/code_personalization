@@ -11,4 +11,7 @@ class NodeProtheus(PersonalizationNode):
         super().__init__(client, __file__)
 
     def run(self):
-        print('protheus run called!')
+        print('initializing protheus process')
+        print('making step 1')
+        print('making step 2')
+        print('making step 3')
