@@ -11,7 +11,7 @@ class NodeSap4Hana1809(PersonalizationNode):
         super().__init__(client, __file__)
 
     def step1(self):
-        print('making step 1 for the 1709 version!')
+        print('making step 1 for the 1809 version!')
 
     def step3(self):
-        print('making step 3 for the 1709 version!')
+        print('making step 3 for the 1809 version!')

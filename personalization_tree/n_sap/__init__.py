@@ -15,8 +15,6 @@ class NodeSap(PersonalizationNode):
 
     def run(self):
         print('initializing sap process')
-        step1 = self.func('step1')
-        step1()
+        self.func('step1')()
         print('making step 2')
-        step3 = self.func('step3')
-        step3()
+        self.func('step3')()
